@@ -10,7 +10,7 @@ Projeto feito em conjunto com:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/RafaelBerg">
+      <a href="https://github.com/RafaelBerg" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/86807247?v=4" width="100px;" alt="Avatar Rafael"/><br>
         <sub>
           <b>Rafael Berg</b>
@@ -18,7 +18,7 @@ Projeto feito em conjunto com:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/MatheusCarne">
+      <a href="https://github.com/MatheusCarne" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/88046644?v=4" width="100px;" alt="Avatar Matheus"/><br>
         <sub>
           <b>Matheus Carneiro</b>
@@ -26,7 +26,7 @@ Projeto feito em conjunto com:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/ThiagoMathe">
+      <a href="https://github.com/ThiagoMathe" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/89406106?v=4" width="100px;" alt="Avatar Thiago"/><br>
         <sub>
           <b>Thiago Matheus</b>
@@ -34,7 +34,7 @@ Projeto feito em conjunto com:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/ViniRodrigBarros">
+      <a href="https://github.com/ViniRodrigBarros" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/95061193?v=4" width="100px;" alt="Avatar Vinicius"/><br>
         <sub>
           <b>Vinicius Rodrigues</b>
