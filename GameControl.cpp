@@ -114,11 +114,11 @@ int GameControl::Combate(){
 
 
 void GameControl::gameMod1(){
-  Inventario[0].setQntd(1);
-  Inventario[1].setQntd(1);
   cout << "Escreva seu nome: " << endl;
   cin >> nome;
   p1.setNome(nome);
+  p1.Inventario[0].setQntd(1);
+  p1.Inventario[1].setQntd(1);
   
   cout << artes.MYpokedex << endl;
   cin >> meuPokemon;
@@ -148,17 +148,12 @@ void GameControl::InterfaceModoHistoria(){
 
 void GameControl::campanha(){
   pokemonInimigo = 1;
-  p1.Inventario[0].setQntd(1);
-  p1.Inventario[1].setQntd(1);
   if (Combate()){
     level1();
   };
 }
 
 void GameControl::modoFacil(){
-  p1.Inventario[0].setQntd(1);
-  p1.Inventario[1].setQntd(1);
-  
   level3();
 }
 
@@ -202,7 +197,6 @@ void GameControl::loja(){
 }
      
 void GameControl::level1(){
-  
   loja();
   pokemonInimigo = 2;
   ganhou_round();
@@ -249,8 +243,8 @@ void GameControl::level4(){
 
 
 void GameControl::gameMod2(){
-  Inventario[0].setQntd(1);
-  Inventario[1].setQntd(1);
+  p1.Inventario[0].setQntd(1);
+  p1.Inventario[1].setQntd(1);
   InterfaceModoHistoria();
   tutorialMain();
   cout << artes.tutorialPt1;
