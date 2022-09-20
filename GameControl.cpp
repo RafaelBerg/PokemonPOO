@@ -178,12 +178,13 @@ void GameControl::loja(){
     
     switch(itemOpc){
       case 1:
+        if (p1.getMoeda() == 10){
+          cout << "Você não possui kwanzas suficientes!" << endl;
+          break;
+        }
         qntd = p1.Inventario[0].getQntd();
         p1.Inventario[0].setQntd(qntd + 1);
         p1.setMoeda(p1.getMoeda() - 20);
-        if (p1.getMoeda() == 10){
-          p1.setMoeda(0);
-        }
         break;
       case 2:
         qntd = p1.Inventario[1].getQntd();
@@ -269,6 +270,7 @@ void GameControl::gameMod2(){
   cin >> dificuldade;
   if(dificuldade == 1){
     modoFacil();
+
   }
   else{
     campanha();
