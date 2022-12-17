@@ -1,5 +1,6 @@
 # PokemonPOO
-https://docs.google.com/document/d/1F-zIK2DyPEe_05uHebpWxby6dLWrO9qOQVxUGgud3pU/edit  
+https://docs.google.com/document/d/1F-zIK2DyPEe_05uHebpWxby6dLWrO9qOQVxUGgud3pU/edit
+https://replit.com/@RafaelBerg1/Pokemonjogo#Player.hpp
 
 O software recria a atmosfera de conduzir o protagonista dessa aventura através da programação em C++. O objetivo do jogo é vencer as batalhas Pokémon e com isso passar de fase toda vez que derrotar os outros pokémons que surgirem, em seguida, vencer a última batalha contra um tipo de chefe e completar o jogo. Quando o jogador entra num modo de luta as opções mudam para uma tela de batalha baseada em turnos.
 
