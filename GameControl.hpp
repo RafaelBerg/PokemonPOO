@@ -14,7 +14,7 @@
 #include <thread>
 
 
-class GameControl : public Player, public Arts{
+class GameControl{
   public:
     GameControl();
     Arts artes = Arts();

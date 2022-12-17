@@ -4,7 +4,7 @@
 #include "Item.hpp"
 #include "Pokemon.hpp"
 
-class Player : public Item, public Pokemon{
+class Player{
   private:
     string nome;
     int moeda = 0;
